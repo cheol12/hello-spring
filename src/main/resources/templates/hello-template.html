@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'hello ' + ${name}" >hello! empty</p>
+<!-- ${name} => 컨트롤러에서 model로 넘어온 (키:"name",값:name) 값:name-->
+</body>
+</html>
