@@ -1,4 +1,4 @@
-package hello.hellospring;
+package hello.hellospring.controller;
 
 
 import lombok.extern.slf4j.Slf4j;
